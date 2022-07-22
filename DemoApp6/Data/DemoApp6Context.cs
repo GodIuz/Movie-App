@@ -11,5 +11,6 @@ namespace DemoApp6.Data
         }
 
         public DbSet<Movies> Movies { get; set; }
+        public DbSet<Series> Series { get; set; }
     }
 }
